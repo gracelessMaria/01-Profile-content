@@ -1,0 +1,104 @@
+body{
+  background-color: rgba(192, 189, 165, 1);
+}
+
+.container {
+  margin: 0px auto;
+  width: 700px;
+}
+
+.card-ivory {
+  margin: 16px;
+  background-color: rgba(255, 255, 245, 1);
+/*  width: 500px;*/
+  border-radius: 4px;
+  box-shadow: ;
+  padding: 24px;
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
+
+h1, h2 {
+  font-family: 'Lacquer', sans-serif;
+}
+
+.btn-pink {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(215, 173, 164, 1);
+  padding: 8px 16px;
+  border-radius: 30px;
+  color: rgba(215, 173, 164, 1);
+  text-decoration: none;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.btn-pink:hover {
+  border-color: rgba(215, 173, 164, 0.5);
+  color: rgba(215, 173, 164, 0.5);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 20px;
+}
+
+
+.img-circle-big {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.img-circle-small {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.small-descr-text {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.smlinks-pink {
+  text-decoration: none;
+  color: rgba(215, 173, 164, 1);
+  font-size: 32px;
+}
+.smlinks-pink:hover {
+  color: rgba(215, 173, 164, 0.5);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .img-circle-big {
+    width: 150px;
+  }
+}
